@@ -1,15 +1,31 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+/gin-vue-admin/.idea/
+/gin-vue-admin/web/node_modules
+/gin-vue-admin/web/dist
 
-# Test binary, built with `go test -c`
-*.test
+/gin-vue-admin/.DS_Store
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# local env files
+/gin-vue-admin/.env.local
+/gin-vue-admin/.env.*.local
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Log files
+/gin-vue-admin/npm-debug.log*
+/gin-vue-admin/yarn-debug.log*
+/gin-vue-admin/yarn-error.log*
+
+# Editor directories and files
+/gin-vue-admin/.idea
+/gin-vue-admin/.vscode
+/gin-vue-admin/*.suo
+/gin-vue-admin/*.ntvs*
+/gin-vue-admin/*.njsproj
+/gin-vue-admin/*.sln
+/gin-vue-admin/*.sw?
+
+/gin-vue-admin/server/log/
+/gin-vue-admin/server/gva
+/gin-vue-admin/server/latest_log
+
+/gin-vue-admin/*.iml
+/gin-vue-admin/web/.pnpm-debug.log
+/gin-vue-admin/web/pnpm-lock.yaml
